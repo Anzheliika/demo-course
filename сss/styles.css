@@ -1,0 +1,50 @@
+:root {
+    --color-primary: #21243D;
+    --color-background: #ffffff;
+    --color-background-brand: #EDF7FA;
+    --color-action: #FF6464;
+    --color-white: #ffffff;
+    --color-secondary: #8695A4;
+    --color-brand: #00A8CC;
+    --color-tag: #2A326F;
+}
+
+body {
+    color: var(--color-primary);
+    background-color: var(--color-background);
+}
+
+ /* Header */
+.link {
+    color: var(--color-primary);
+}
+/* index.html  */
+/* Hero */
+.button {
+    color: var(--color-white);
+    background-color: var(--color-action);
+}
+
+/* Brand */
+.section-brand {
+    background-color: var(--color-background-brand);
+}
+
+.view-all-link {
+    color: var(--color-brand);
+}
+
+.post {
+    background-color: var(--color-background);
+}
+
+.post-info {
+    color: var(--color-secondary);
+}
+
+/* Featured work */
+.tag {
+    color: var(--color-white);
+    background-color: var(--color-tag);
+}
+

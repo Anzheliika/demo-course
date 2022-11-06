@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>John Blog</title>
+    <link rel="stylesheet" href="./сss/styles.css">
   </head>
   <body>
     <header>
@@ -13,32 +14,34 @@
           <img src="./images/logo.svg" alt="John Blog Logo"/>
         </a>
         <ul>
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="./work.html">Work</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a class="link" href="./blog.html">Blog</a></li>
+          <li><a class="link" href="./work.html">Work</a></li>
+          <li><a class="link" href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="hero-section">
         <h1>Hi, I’m John! <br/>Creative Technologist</h1>
         <p>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <a href="./work.html">Check my Work</a>
+        <a class="button" href="./work.html">Check my Work</a>
         <img src="./images/hero-image.png" alt="John portrait"/>
       </section>
-      <section>
+      <section class="section-brand">
         <h2>Recent Posts</h2>
-        <a href="./blog.html">View all</a>
+        <a class="view-all-link" href="./blog.html">View all</a>
         <ul>
           <li>
-            <article>
+            <article class="post">
               <h3>Post Title</h3>
+              <p class="post-info">
               <time datetime="2021-02-12">12 Feb 21</time>|
               <span>Design System</span>
+              </p>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
@@ -47,10 +50,12 @@
             </article>
           </li>
           <li>
-            <article>
+            <article class="post">
               <h3>Post Title</h3>
+              <p class="post-info">
               <time datetime="2021-02-12">12 Feb 21</time>|
               <span>Design System</span>
+              </p>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
@@ -60,16 +65,16 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="section-work">
         <h2>Featured Work</h2>
-        <a href="./work.html">View all</a>
+        <a class="view-all-link" href="./work.html">View all</a>
         <ul>
           <li>
             <article>
               <img src="./images/dashboard.png" alt="Designing Dashboards"/>
               <h3>Designing Dashboards</h3>
-              <span>2020</span>
-              <span>Dashboard</span>
+              <span class="tag">2020</span>
+              <span class="post-info">Dashboard</span>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
@@ -81,8 +86,8 @@
             <article>
               <img src="./images/portrait.png" alt="Vibrant Portraits"/>
               <h3>Vibrant Portraits</h3>
-              <span>2018</span>
-              <span>Illustration</span>
+              <span class="tag">2018</span>
+              <span class="post-info">Illustration</span>
               <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
