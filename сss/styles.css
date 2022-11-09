@@ -1,50 +1,104 @@
 :root {
-    --color-primary: #21243D;
-    --color-background: #ffffff;
-    --color-background-brand: #EDF7FA;
-    --color-action: #FF6464;
-    --color-white: #ffffff;
-    --color-secondary: #8695A4;
-    --color-brand: #00A8CC;
-    --color-tag: #2A326F;
+  --color-primary: #21243d;
+  --color-background: #ffffff;
+  --color-background-brand: #edf7fa;
+  --color-action: #ff6464;
+  --color-white: #ffffff;
+  --color-secondary: #8695a4;
+  --color-brand: #00a8cc;
+  --color-tag: #2a326f;
 }
 
 body {
-    color: var(--color-primary);
-    background-color: var(--color-background);
+  color: var(--color-primary);
+  background-color: var(--color-background);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
- /* Header */
+/* Header */
 .link {
-    color: var(--color-primary);
-}
-/* index.html  */
-/* Hero */
-.button {
-    color: var(--color-white);
-    background-color: var(--color-action);
+  color: var(--color-primary);
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
-/* Brand */
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Hero section*/
+.hero-title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.body-text {
+  line-height: 1.5;
+}
+
+/* Button */
+.button {
+  color: var(--color-white);
+  background-color: var(--color-action);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.button:hover {
+  box-shadow: 2px 6px 12 px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+    box-shadow: 2px 6px 12 px rgba(0, 0, 0, 0.3);
+}
+
+/* Sections */
+.section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
 .section-brand {
-    background-color: var(--color-background-brand);
+  background-color: var(--color-background-brand);
 }
 
 .view-all-link {
-    color: var(--color-brand);
+  color: var(--color-brand);
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
-.post {
-    background-color: var(--color-background);
+.view-all-link:hover {
+    text-decoration: underline;
+}
+
+/* Post */
+.post-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.5;
 }
 
 .post-info {
-    color: var(--color-secondary);
+  color: var(--color-secondary);
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.post {
+  background-color: var(--color-background);
 }
 
 /* Featured work */
 .tag {
-    color: var(--color-white);
-    background-color: var(--color-tag);
+  color: var(--color-white);
+  background-color: var(--color-tag);
 }
-
